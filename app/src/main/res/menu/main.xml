@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+    <!-- Search, should appear as action button -->
+
+    <item
+        android:id="@+id/increase_font"
+        android:icon="@drawable/increase_font"
+        android:title="@string/increase_font"
+        yourapp:showAsAction="always"/>
+    <item
+        android:id="@+id/decrease_font"
+        android:icon="@drawable/decrease_font"
+        android:title="@string/decrease_font"
+        yourapp:showAsAction="always"/>
+
+</menu>

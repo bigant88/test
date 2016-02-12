@@ -1,0 +1,44 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '19.1.0'
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 23
+        versionCode 12
+        versionName "2.2"
+    }
+    signingConfigs {
+        release {
+            keyAlias 'devhnkey'
+            keyPassword '123456a@'
+            storeFile file('D:\\ebooks\\release_devhn.keystore')
+            storePassword '123456a@'
+        }
+    }
+    buildTypes {
+        release {
+//            runProguard false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile project(':viewpagerindicator')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23+'
+    compile 'com.google.android.gms:play-services:7.8.0'
+    compile 'com.google.android.gms:play-services-ads:7.8.0'
+    compile 'com.google.android.gms:play-services-identity:7.3.0'
+    compile 'com.google.android.gms:play-services-gcm:7.3.0'
+}
