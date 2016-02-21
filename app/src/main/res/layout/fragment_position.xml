@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<com.startapp.android.publish.banner.Banner-->
+        <!--android:id="@+id/startAppBanner"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal" />-->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/scroll_view_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/position_image"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:scaleType="center"
+                android:src="@drawable/p1"
+                android:layout_gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/position_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="Name:"
+                    android:textStyle="bold"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/benefits"
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/position_benefits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="be"
+                android:paddingLeft="10dp"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingLeft="5dp"
+                android:text="@string/desc"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/position_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="desc"
+                android:paddingLeft="10dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingLeft="5dp"
+                android:text="@string/try_this"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/position_try_this"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Try this:"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.startapp.android.publish.banner.Banner
+        android:id="@+id/startAppBanner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

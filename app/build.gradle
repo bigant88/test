@@ -6,14 +6,14 @@ android {
     defaultConfig {
         minSdkVersion 9
         targetSdkVersion 23
-        versionCode 12
-        versionName "2.2"
+        versionCode 14
+        versionName "2.3"
     }
     signingConfigs {
         release {
             keyAlias 'devhnkey'
             keyPassword '123456a@'
-            storeFile file('D:\\ebooks\\release_devhn.keystore')
+            storeFile file('release_devhn.keystore')
             storePassword '123456a@'
         }
     }

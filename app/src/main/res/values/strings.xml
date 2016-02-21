@@ -1,7 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Amazing facts about Sex</string>
+    <string name="position">Position</string>
+    <string-array name="menu_arrays">
+        <item>Facts</item>
+        <item>Positions</item>
+    </string-array>
+    <string-array name="position_name_array">
+        <item>The one-up</item>
+        <item>Ballet dancer</item>
+        <item>Bathroom attendant</item>
+        <item>Butter churner</item>
+        <item>Closed for business</item>
+        <item>Couch surfer</item>
+        <item>The shoulder holder (aka Cuban plunge)</item>
+        <item>David Copperfield (aka Trick and treat)</item>
+        <item>Downward dog</item>
+        <item>Doggy-style</item>
+        <item>H2Ohh yeah</item>
+        <item>Heir to the throne</item>
+        <item>Hovering butterfly</item>
+        <item>Iron chef</item>
+        <item>Lazy man</item>
+        <item>Missionary</item>
+        <item>Mountain climber</item>
+        <item>Pole position</item>
+        <item>The Pretzel (aka The camel ride)</item>
+        <item>Reverse cowgirl</item>
+        <item>Seated wheelbarrow</item>
+        <item>Sixty-nine (aka Dinner for two)</item>
+        <item>Snow angel</item>
+        <item>The spider</item>
+        <item>Spork</item>
+        <item>Standing rear-entry</item>
+        <item>Stand and deliver</item>
+        <item>The CAT (Coital Alignment Technique)</item>
+        <item>Waterfall</item>
+        <item>Wheelbarrow (aka Hoover manoeuvre</item>
+        <item>The X position</item>
+    </string-array>
+    <string-array name="position_benefits_array">
+        <item>This position is ideal for women who are particularly sensitive along one side of the clitoris.</item>
+        <item>Erotic movement for quickies in tight quarters. Good option for outdoor sex. Allows for easier penetration. She has control of thrusting, depth, and angle.</item>
+        <item>Good for a quickie at a party.</item>
+        <item>An extra rush of blood to her head to increase her ecstasy</item>
+        <item>A variation of One up that allows for slow build-up.</item>
+        <item>Convenient for a quickie and adds spice outside the bedroom.</item>
+        <item>Allows deep penetration and targeting the G-spot.</item>
+        <item>This position is the piece de resistance for women who prefer a strong, upward stroking motion</item>
+        <item>Intensifies vaginal pleasure.</item>
+        <item>Deep penetration and an erotic view.</item>
+        <item>Good for an outdoors quickie, while still avoiding prying eyes</item>
+        <item>The ultimate position for oral on the go, use this to get her in the mood and help her cut loose.</item>
+        <item>She can direct the position of your tongue and the pressure against her by rising up or pressing down.</item>
+        <item>Good position for a quickie with deep penetration</item>
+        <item>Puts her in control; maintains intimacy.</item>
+        <item>Lots of eye and body contact</item>
+        <item>Creates great eye-to-eye contact. Keeps your weight off her bod</item>
+        <item>Dual stimulation for her; for you - a great view of her rear and your penis entering her</item>
+        <item>The deep penetration of doggy-style while face to face</item>
+        <item>With a pillow under your head, you get an awesome view of her backside. She can control depth of penetration and pace</item>
+        <item>Less strenuous than the standing varieties, while still offering intense sensation.</item>
+        <item>Simultaneous oral pleasure</item>
+        <item>She gets a prime view of your derriere. (side note: don’t try this in brightly-lit rooms)</item>
+        <item>You both can still maintain eye contact while viewing the action at center stage</item>
+        <item>Offers a natural bridge to more creative positions</item>
+        <item>Greater thrusting power, and good for quickie sex in your kitchen, especially if she is wearing a skirt.</item>
+        <item>You can enjoy the view of your penis thrusting</item>
+        <item>Strong clitoral stimulation. In one study in the Journal of Sex and Marital Therapy, women who were unable to have an orgasm in the missionary position reported a 56 percent increase in orgasm frequency using the coital alignment technique.</item>
+        <item>The blood will rush to his other head, too</item>
+        <item>kilojoule-burner because it is so athletic. You can stroll around the house in this position, but draw the shades first.</item>
+        <item>Prolonged slow sex to build arousal. Shallow thrusts stimulate the nerve endings in the head of your penis.</item>
+    </string-array>
+    <string-array name="position_desc_array">
+        <item>Kneel on the floor with her lying on the edge of the bed. Raise one of her legs and ask her to support her leg by wrapping her hands around her hamstring just below the knee. With one hip raised, she’ll be able to add some movement to aid in your stroking or to help move you to the perfect spot.</item>
+        <item>You stand facing one another. She raises one of her legs up and wraps it around your buttocks or thigh and pulls you into her with her leg.</item>
+        <item>Slip into a bathroom and ask her to look into the mirror while you enter her from behind. It lets you have eye contact during the G-spot-targeting rear-entry position.</item>
+        <item>Have your partner lie on her back with her legs raised over her head. This is not a plain Jane position! Squat over her and dip your penis in and out of her. Be extra careful to thrust lightly to avoid stressing her neck.</item>
+        <item>Some women find direct clitoral stimulation uncomfortable. Having her close her legs during oral sex may help. Place your hand above her public mound applying light pressure, then rub your firm tongue on the area around the clitoris to add indirect stimulation.</item>
+        <item>Ask her to bend her body over the arm of a couch as you enter her from behind. She can grind on the firm but cushy arm for multiple stimulation with minimal effort.</item>
+        <item>She lies on her back. You kneel between her legs and raise them, resting her calves over your shoulders. Rock her in a side-to-side and up-and-down motion to bring the head and shaft of your penis in direct contact with the front wall of her vagina. Because this angle allows for deep penetration, thrust slowly at first avoid causing her discomfort.</item>
+        <item>Place a pillow under her hips to tilt her pelvis up. Bend her knees so she can place her feet on your shoulder blades.</item>
+        <item>She lies face down on the bed, knees slightly bent and hips slightly raised. For comfort, and to increase the angle of her hips, she can place a pillow under her lower abs. You enter her from behind and keep your weight off of her by propping yourself up with your arms. This position creates a snug fit, making you feel larger to her.</item>
+        <item>This could be your next move after starting in Doggy-style position. Entering her from behind, you will be able to thrust deep so the tip of your penis touches her cervix, an often-neglected pleasure zone. But you should do this slowly and gently. Some women find it painful.</item>
+        <item>A variation on The Ballet Dancer. Her buoyancy in the water makes this position easier to hold. And all you need to do is shift some bathing suit material out of the way of certain body parts; the lifeguards will be none the wiser.</item>
+        <item>Have your partner sit on a chair with her legs wide open. You take it from there. This is a good position for either beginning the slow build-up with loose, broad, strokes, or ending with strong suction. Your partner is able to easily guide you, and she is able to get a full view of you between her legs, which is a turn-on for many women.</item>
+        <item>She straddles you placing her knees at your ears. She can hold onto a wall or headboard for support. While you are doing your thing, she can use her fingers to graze her nipples or rub the top of her vulva.</item>
+        <item>Another variation on The Ballet Dancer, in which she raises her legs up and wraps them around your butt or thighs. Your kitchen counter is the perfect height for this standing-to-seated appetizer.</item>
+        <item>Place pillows behind your back and sit on the bed with legs outstretched. She straddles your waist, feet on the bed. She then bends her knees to lower herself onto you, using one hand to direct your penis in. Just by pressing on the balls of her feet and releasing, she can raise and lower herself on your shaft as slowly or quickly as she pleases.</item>
+        <item>The most commonly used position in the world, the missionary is an especially intimate position allowing for face-to-face contact. You like it because you can control penetration depth and speed of thrusting. She enjoys feeling your weight on her body, and the maximum skin-to-skin contact. Note that this position can make it more difficult to hold off ejaculation because of the intense friction and deep thrusting. To lengthen lovemaking, start there then switch to a position that maintains clitoral pressure without so much pelvic back and forth.</item>
+        <item>There is a reason women swoon when they see a six pack. They know a man with strong abs is going to be great in the sack. The mountain climber position shows off your strength and hard abs. While between her legs, assume the standard "up" position.</item>
+        <item>Lie on your back and bend one of your legs, keeping the other outstretched. She straddles the raised leg with a thigh on either side and lowers herself onto your member so that her back is facing you. She should hold your knee and use it for support as she rocks up and down.</item>
+        <item>Kneel and straddle her left leg while she is lying on her left side. She will bend her right leg around the right side of your waist, which will give you access to enter her vagina. For many women, rear entry hurts their backs. This position allows her to lounge comfortably while enjoying deep penetration.</item>
+        <item>Lie on your back with your legs outstretched. She kneels next to you, then turns and spreads her legs, straddling your hips and facing your feet. Kneeling, she lowers herself onto your penis and begins riding you.</item>
+        <item> </item>
+        <item>When she is on top in 69, she can control the intensity of oral stimulation on her clitoris by lifting or pressing her pelvis. From this position it is easy to work her finger magic on your perineum, the sensitive area just below your testicles. Also try the man-on-top position.</item>
+        <item>This is challenging: She lies on her back while you straddle her facing away. She lifts her legs and wraps them around your back to elevate her pelvis so you can enter. She then grabs your butt to help you slide up and back. She can add a little massage action to her grip also.</item>
+        <item>Both of you are seated on the bed with legs toward one another, arms back to support yourselves. Now move together and she moves onto you. Her hips will be between your spread legs, her knees bent and feet outside of your hips and flat on the bed. Now rock back and forth.</item>
+        <item>She lies on her back, and raises her right leg so you can position yourself between her legs at a 90-degree angle and enter. Her legs will form the tines of a spork, a spoon-and-fork utensil. She can do this with you facing her or facing her back.</item>
+        <item>Ask her to bend at the waist and rest her hands on a piece of furniture, her knees or the floor for support. You enter her from behind and hold her hips for support as you thrust.</item>
+        <item>Stand at the edge of a bed or desk while she lies back and raises her legs to her chest. Her knees are bent as if she is doing a bicycling exercise. Grab her ankles and enter her. Thrust slowly as the deep penetration may be painful for her.</item>
+        <item>The CAT is just like the missionary except that your body is farther up and to one side. Instead of being chest to chest, your chest is near her shoulders. Have her bend her legs about 45 degrees to tilt her hips up. This causes the base of your shaft to maintain constant contact with her clitoris.</item>
+        <item>Move to the edge of the bed and have him lie back with his head and shoulders on the floor as you straddle him. The blood will rush to his head creating mind-blowing sensations as he climaxes.</item>
+        <item>You enter her as you would in standing, rear entry, but lift her up by the pelvis and have her grip your waist with her legs. Summer camp wheelbarrow races were never this much fun!</item>
+        <item>Sit on the bed facing each other with legs forward. Lift your right leg over her left and she lifts her right leg over your left. Come together so you can enter. Now both of you lie back, with your legs forming an X. Slow, leisurely gyrations replace thrusting.</item>
+    </string-array>
+    <string-array name="position_try_this_array">
+        <item>Encourage her to wriggle a little to help you get the rhythm right.</item>
+        <item>If her wrapped leg gets tired, cradle it with your arm. If she is very flexible, lift her leg over your shoulder.</item>
+        <item> </item>
+        <item>By removing yourself fully, you will give her the extremely pleasurable feeling of you first entering her over and over again.</item>
+        <item> </item>
+        <item>Have her cross her ankles. This will squeeze her vaginal and gluteal muscles tightly around your penis.</item>
+        <item>Bring her legs down and have her place her feet on your chest in front of your shoulders. This allows her to control the tempo and depth of thrusts.</item>
+        <item>Amplify your oral efforts with a simple sleight-of-hand trick: While you lap away, try using your hands to push gently upward on her abdomen, stretching her skin away from her pubic bone, and helping to coax the head of her clitoris out from beneath the hood.</item>
+        <item>You will last longer in this position if you switch to shallower thrusts and begin deep breathing.</item>
+        <item> </item>
+        <item> </item>
+        <item>Switch to a swivel chair and turn it left and right as you hold your tongue stationary.</item>
+        <item>Hold your tongue firm as she gyrates her hips, pressing her clitoris against it.</item>
+        <item> </item>
+        <item>From this position, you both lie back into the Spider position or its more challenging variation The X.</item>
+        <item>Push up to create space in between you to sneak a small vibrator down for buzzing the top of her mound.</item>
+        <item>Lower yourself to kiss her teasingly while thrusting with your shoulders as well as your pelvis.</item>
+        <item>She can press her vulva hard against your upper thigh rubbing as the feeling dictates.</item>
+        <item>Manually stimulate her using your fingers. Or withdraw your penis and, holding the shaft with your left hand, rub the head against her clitoris to bring her to the brink of orgasm then you can reinsert when she wants you inside her</item>
+        <item>Have her lean forward or back to change the angle of the penis for greater stimulation.</item>
+        <item>Try the wheelbarrow while sitting on the edge of a bed or chair. Movement is limited, but penetration is deep.</item>
+        <item>Roll over onto your sides in the 69 position</item>
+        <item> </item>
+        <item>She grabs your hands and pulls herself up into a squatting position while you lie back. Or you can remain seated upright and pull her against your chest into the Lazy man position</item>
+        <item>If she is limber, lift her left leg up to increase the depth of penetration</item>
+        <item>Reach below to caress her clitoris for extra stimulation</item>
+        <item>Have her place her heels on your shoulders, which will open her hips so her labia press against you.</item>
+        <item>Ask her to straighten her legs. Push your pelvis down a few inches while she pushes up</item>
+        <item> </item>
+        <item>Ask her to rhythmically squeeze her PC muscles to help her climax.</item>
+        <item>Reach out and hold hands to pull together for pelvic thrusting. Also, take turns alternatively sitting up and lying back without changing the rhythm</item>
+    </string-array>
+    <!---->
+    <string name="app_name">Good sex tips</string>
     <string name="bookmark">Đánh dấu</string>
     <string name="bookmarked">Đã đánh dấu</string>
     <string name="increase_font">Tăng cỡ chữ</string>
@@ -17,7 +155,6 @@
     <string name="close">Đóng</string>
     <string name="ad_unit_id">ca-app-pub-6134821415467789/8154646956</string>
     <string name="interstitial_ad_unit_id">ca-app-pub-6134821415467789/6677913757</string>
-	
     <string name="fact">Fact</string>
     <string name="amazing_ad_unit_id">ca-app-pub-6811776882268454/8659776125</string>
     <string name="amazing_interstitial_ad_unit_id">ca-app-pub-6811776882268454/9298904528</string>
@@ -222,5 +359,13 @@
         <item> A quarter of penises are slightly bent when erect.</item>
         <item> Valentina Vassilyeva holds the record for most children birthed by a single woman. During her life she gave birth to total of 69 children. She had 16 pairs of twins, 7 sets of triplets and 4 sets of quadruplets between 1725 and 1765, in a total of 27 births. Miraculously 67 of the 69 children born survived infancy.</item>
     </string-array>
+    <string name="title_activity_laucher">LaucherActivity</string>
+    <string name="title_activity_position">PositionActivity</string>
+    <string name="benefits">Benefits</string>
+    <string name="try_this">Try this</string>
+    <string name="desc">Description</string>
+    <string name="view_31_best_positions">View 31 of the best sex position</string>
+    <string name="view_200_amazing_sex_facts">View 200 amazing sex faces</string>
+    <string name="view_200_amazing_sex_fact">View 200 amazing sex facts</string>
 
 </resources>
