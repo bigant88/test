@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "791239868875",
+    "project_id": "firebase-position"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791239868875:android:e9a715af872b3476",
+        "android_client_info": {
+          "package_name": "com.devhn.amazingfactsaboutsex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXWn4pQMQota-PDiNKIcx5sovtTA7e7Qo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-82420226-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
