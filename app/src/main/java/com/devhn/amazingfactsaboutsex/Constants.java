@@ -81,4 +81,5 @@ public class Constants {
 																				// chuong
 																				// 1
 	public static final String COPIED_DB = "copied_db_db";
+	public static final String TIME_OPEN_APP = "TIME_OPEN_APP";
 }

@@ -139,7 +139,7 @@
         <item>Reach out and hold hands to pull together for pelvic thrusting. Also, take turns alternatively sitting up and lying back without changing the rhythm</item>
     </string-array>
     <!---->
-    <string name="app_name">Good sex tips and positions</string>
+    <string name="app_name">Kamasutra sex positions and tips</string>
     <string name="bookmark">Đánh dấu</string>
     <string name="bookmarked">Đã đánh dấu</string>
     <string name="increase_font">Tăng cỡ chữ</string>
@@ -364,7 +364,12 @@
     <string name="benefits">Benefits</string>
     <string name="try_this">Try this</string>
     <string name="desc">Description</string>
-    <string name="view_31_best_positions">View 31 the best sex positions</string>
-    <string name="view_200_amazing_sex_fact">View 200 amazing sex facts</string>
+    <string name="view_31_best_positions">View the best Kamasutra sex positions</string>
+    <string name="view_200_amazing_sex_fact">View amazing sex tips</string>
+    <string name="like">Like</string>
+    <string name="tried_this">I tried this</string>
+    <string name="find_position_of_you_today">Find position for you today</string>
+    <string name="download_jokes_for_adult_app">Download Jokes for adult app</string>
+    <string name="feedback">Feedback</string>
 
 </resources>

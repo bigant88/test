@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Goede seks tips en posities</string>
     <string name="bookmark">Đánh dấu</string>
     <string name="bookmarked">Đã đánh dấu</string>
     <string name="increase_font">Tăng cỡ chữ</string>
@@ -19,12 +18,17 @@
     <string name="interstitial_ad_unit_id">ca-app-pub-6134821415467789/6677913757</string>
 
     <string name="fact">Eit</string>
-    <string name="benefits">Benefits</string>
-    <string name="try_this">Try this</string>
-    <string name="desc">Description</string>
-    <string name="view_31_best_positions">Bekijk 31 de beste standjes</string>
-    <string name="view_200_amazing_sex_fact">Bekijk 200 amazing sex feiten</string>
-
+    <string name="app_name"> Kamasutra Sexstellungen und Tipps </string>
+    <string name="benefits"> Vorteile </string>
+    <string name="try_this"> Versuchen Sie, diese </string>
+    <string name="desc"> Beschreibung </string>
+    <string name="view_31_best_positions"> Sehen Sie die besten Kamasutra Sexstellungen </string>
+    <string name="view_200_amazing_sex_fact"> Ansicht erstaunlich Sex-Tipps </string>
+    <string name="like"> Wie </string>
+    <string name="tried_this"> Ich habe versucht, diese </string>
+    <string name="find_position_of_you_today"> Finden Sie Position für Sie heute </string>
+    <string name="download_jokes_for_adult_app"> Download Witze für Erwachsene App </string>
+    <string name="Feedback"> Feedback </string>
 
     <string-array name="content_array">
 

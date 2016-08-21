@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Bon plans et positions sexuelles</string>
     <string name="bookmark">Đánh dấu</string>
     <string name="bookmarked">Đã đánh dấu</string>
     <string name="increase_font">Tăng cỡ chữ</string>
@@ -19,11 +18,20 @@
     <string name="interstitial_ad_unit_id">ca-app-pub-6134821415467789/6677913757</string>
 
     <string name="fact">Fait</string>
-    <string name="benefits">Benefits</string>
-    <string name="try_this">Try this</string>
-    <string name="desc">Description</string>
-    <string name="view_31_best_positions">Voir 31 les meilleures positions sexuelles</string>
-    <string name="view_200_amazing_sex_fact">Voir 200 faits sexuelles étonnantes</string>
+
+
+    <string name="app_name"> Kamasutra positions sexuelles et des conseils </string>
+    <string name="benefits"> Avantages </string>
+    <string name="try_this"> Essayer cette </string>
+    <string name="desc"> Description </string>
+    <string name="view_31_best_positions"> Voir les meilleures positions Kamasutra sex </string>
+    <string name="view_200_amazing_sex_fact"> Voir conseils de sexe incroyable </string>
+    <string name="like"> Comme </string>
+    <string name="tried_this"> I essayé cette </string>
+    <string name="find_position_of_you_today"> Trouvez la position pour vous aujourd\'hui </string>
+    <string name="download_jokes_for_adult_app"> Télécharger Blagues pour app adulte </string>
+    <string name="feedback"> Feedback </string>
+
     <string-array name="content_array">
 
 
@@ -470,15 +478,15 @@
         plein air. Permet une pénétration plus facile. Elle a le contrôle de la poussée, la
         profondeur et l\'angle.
     </item>
-    <item>Bon pour un quickie lors d\'une fête.</item>
-    <item>Une course supplémentaire de sang à la tête pour augmenter son extase</item>
-    <item>une variation de un jusqu\'à ce que permet une lente accumulation.</item>
-    <item>pratique pour un quickie et ajoute du piquant à l\'extérieur de la chambre.</item>
-    <item>permet une pénétration profonde et ciblant le G-spot.</item>
+        <item>Bon pour un quickie lors d\'une fête.</item>
+        <item>Une course supplémentaire de sang à la tête pour augmenter son extase</item>
+        <item>une variation de un jusqu\'à ce que permet une lente accumulation.</item>
+        <item>pratique pour un quickie et ajoute du piquant à l\'extérieur de la chambre.</item>
+        <item>permet une pénétration profonde et ciblant le G-spot.</item>
     <item>Cette position est la pièce de résistance pour les femmes qui préfèrent une forte
         mouvement caressant vers le haut,
     </item>
-    <item>intensifie le plaisir vaginal.</item>
+        <item>intensifie le plaisir vaginal.</item>
     <item>pénétration profonde et une vue érotique.
         </item>
         <item>Bon pour un quickie à l\'extérieur, tout en évitant les regards indiscrets</item>
@@ -526,7 +534,7 @@
         <item>sexe lente prolongée de construire l\'excitation. poussées peu profondes stimuler les
             terminaisons nerveuses dans la tête de votre pénis.
         </item>
-        </string-array>
+    </string-array>
     <string-array name="position_desc_array">
     <item>agenouiller sur le sol avec son gisant sur le bord du lit. Soulever une de ses jambes et
         lui demander de soutenir sa jambe en enveloppant ses mains autour de sa cuisse juste

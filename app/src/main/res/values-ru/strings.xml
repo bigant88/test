@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Хороший секс советы и должности</string>
     <string name="bookmark">Đánh dấu</string>
     <string name="bookmarked">Đã đánh dấu</string>
     <string name="increase_font">Tăng cỡ chữ</string>
@@ -19,11 +18,21 @@
     <string name="interstitial_ad_unit_id">ca-app-pub-6134821415467789/6677913757</string>
 
     <string name="fact">факт</string>
-    <string name="benefits">Benefits</string>
-    <string name="try_this">Try this</string>
-    <string name="desc">Description</string>
-    <string name="view_31_best_positions">Посмотреть 31 лучшие позы для секса</string>
-    <string name="view_200_amazing_sex_fact">Просмотр 200 удивительные секс факты</string>
+
+
+    <string name="app_name">Камасутра позы для секса и советы</string>
+    <string name="benefits">Выгоды</string>
+    <string name="try_this">Попробуй это</string>
+    <string name="desc">Описание</string>
+    <string name="view_31_best_positions">Посмотреть лучшие сексуальные позиции Kamasutra</string>
+    <string name="view_200_amazing_sex_fact">Посмотреть удивительные сексуальные советы</string>
+    <string name="like">подобно</string>
+    <string name="tried_this">Я попытался это</string>
+    <string name="find_position_of_you_today">Найти место для вас сегодня</string>
+    <string name="download_jokes_for_adult_app">Скачать Шутки для взрослых приложение</string>
+    <string name="feedback">Обратная связь</string>
+
+
     <string-array name="content_array">
 
 

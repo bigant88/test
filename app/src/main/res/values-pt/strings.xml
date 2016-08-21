@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Boas dicas sexuais e posições</string>
     <string name="bookmark">Đánh dấu</string>
     <string name="bookmarked">Đã đánh dấu</string>
     <string name="increase_font">Tăng cỡ chữ</string>
@@ -17,13 +16,21 @@
     <string name="close">Đóng</string>
     <string name="ad_unit_id">ca-app-pub-6134821415467789/8154646956</string>
     <string name="interstitial_ad_unit_id">ca-app-pub-6134821415467789/6677913757</string>
-
     <string name="fact">Fato</string>
-    <string name="benefits">Benefits</string>
-    <string name="try_this">Try this</string>
-    <string name="desc">Description</string>
-    <string name="view_31_best_positions">Ver 31 melhores posições sexuais</string>
-    <string name="view_200_amazing_sex_fact">Ver 200 fatos sexuais incríveis</string>
+    
+
+    <string name = "app_name"> Kamasutra sexo posições e dicas </string>
+    <string name = "benefits"> Benefícios </string>
+    <string name = "try_this"> Tente este </string>
+    <string name = "desc"> Descrição </string>
+    <string name = "view_31_best_positions"> Veja as melhores posições Kamasutra sexo </string>
+    <string name = "view_200_amazing_sex_fact"> view_200_amazing_sex_fact dicas Vista incrível de sexo </string>
+    <string name = "like"> Como </string>
+    <string name = "tried_this"> Eu tentei este </string>
+    <string name = "find_position_of_you_today"> Encontre posição para você hoje </string>
+    <string name = "download_jokes_for_adult_app"> Fazer download de piadas para aplicação adulto </string>
+    <string name = "feedback"> feedback </string>
+    
     <string-array name="content_array">
 
 

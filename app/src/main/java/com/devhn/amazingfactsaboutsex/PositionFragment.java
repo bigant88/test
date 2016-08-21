@@ -10,11 +10,13 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.analytics.HitBuilders;
+
 /**
  * Created by thaodv on 2/16/16.
  */
 public class PositionFragment extends Fragment {
-    static final int[] backgrounds = { R.drawable.p1, R.drawable.p2,
+    static final int[] backgrounds = {R.drawable.p1, R.drawable.p2,
             R.drawable.p3, R.drawable.p4,
             R.drawable.p5, R.drawable.p6,
             R.drawable.p7, R.drawable.p8,
@@ -32,9 +34,11 @@ public class PositionFragment extends Fragment {
             R.drawable.p31};
 
     private int positionID;
+    AppController appController;
     private TextView mTvwPositionName, mTvwPositionBenefits, mTvwPositionTryThis, mTvwDesc;
     private ImageView mImgPositionImage;
     private String[] nameArray, benefitArray, tryThisArray, descArray;
+    private View mViewLike, mViewTriedThis;
 
     public static PositionFragment newInstance(int positionID) {
         PositionFragment fragment = new PositionFragment();
@@ -45,6 +49,7 @@ public class PositionFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        appController = (AppController) getActivity().getApplication();
     }
 
     @Nullable
@@ -57,12 +62,38 @@ public class PositionFragment extends Fragment {
         mTvwPositionTryThis = (TextView) rootView.findViewById(R.id.position_try_this);
         mTvwDesc = (TextView) rootView.findViewById(R.id.position_desc);
         mImgPositionImage = (ImageView) rootView.findViewById(R.id.position_image);
-        nameArray= getResources().getStringArray(R.array.position_name_array);
-        benefitArray =  getResources().getStringArray(R.array.position_benefits_array);
-        tryThisArray =  getResources().getStringArray(R.array.position_try_this_array);
+        nameArray = getResources().getStringArray(R.array.position_name_array);
+        benefitArray = getResources().getStringArray(R.array.position_benefits_array);
+        tryThisArray = getResources().getStringArray(R.array.position_try_this_array);
         descArray = getResources().getStringArray(R.array.position_desc_array);
+        mViewTriedThis = rootView.findViewById(R.id.tried_this_layout);
+        mViewLike = rootView.findViewById(R.id.like_layout);
         setupViews();
+        setListeners();
         return rootView;
+    }
+
+    private void setListeners() {
+        mViewTriedThis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                appController.getDefaultTracker().send(new HitBuilders.EventBuilder()
+                        .setCategory("Position")
+                        .setAction("Tried")
+                        .setLabel("" + positionID)
+                        .build());
+            }
+        });
+        mViewLike.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                appController.getDefaultTracker().send(new HitBuilders.EventBuilder()
+                        .setCategory("Position")
+                        .setAction("Like")
+                        .setLabel("" + positionID)
+                        .build());
+            }
+        });
     }
 
     @Override
@@ -80,11 +111,11 @@ public class PositionFragment extends Fragment {
         super.onStop();
     }
 
-    private void setupViews(){
-        mTvwPositionName.setText(nameArray[positionID-1]);
-        mTvwPositionBenefits.setText(benefitArray[positionID-1]);
-        mTvwPositionTryThis.setText(tryThisArray[positionID-1]);
-        mTvwDesc.setText(descArray[positionID-1]);
-        mImgPositionImage.setImageResource(backgrounds[positionID-1]);
+    private void setupViews() {
+        mTvwPositionName.setText(nameArray[positionID - 1]);
+        mTvwPositionBenefits.setText(benefitArray[positionID - 1]);
+        mTvwPositionTryThis.setText(tryThisArray[positionID - 1]);
+        mTvwDesc.setText(descArray[positionID - 1]);
+        mImgPositionImage.setImageResource(backgrounds[positionID - 1]);
     }
 }

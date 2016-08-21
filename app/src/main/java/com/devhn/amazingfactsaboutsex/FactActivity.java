@@ -1,30 +1,26 @@
 package com.devhn.amazingfactsaboutsex;
 
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v4.content.LocalBroadcastManager;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.PopupWindow;
 import android.widget.Spinner;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 import com.startapp.android.publish.Ad;
 import com.startapp.android.publish.AdDisplayListener;
 import com.startapp.android.publish.StartAppAd;
 import com.startapp.android.publish.StartAppSDK;
 import com.viewpagerindicator.CirclePageIndicator;
-import com.viewpagerindicator.IconPageIndicator;
-import com.viewpagerindicator.TitlePageIndicator;
 
 //import com.google.android.gms.ads.AdRequest;
 //import com.google.android.gms.ads.InterstitialAd;
@@ -51,6 +47,7 @@ public class FactActivity extends ActionBarActivity implements Spinner.OnItemSel
     Spinner spinner;
     private ActionBar actionBar;
     private PositionFragmentAdapter positionFragmentAdapter;
+    private Tracker mTracker;
     //    private InterstitialAd interstitial;
 
     public String[] getContentArray() {
@@ -68,6 +65,8 @@ public class FactActivity extends ActionBarActivity implements Spinner.OnItemSel
         StartAppSDK.init(this, "211742685", true);
         startAppAd = new StartAppAd(this);
         setContentView(R.layout.activity_main);
+        AppController application = (AppController) getApplication();
+        mTracker = application.getDefaultTracker();
 //        customActionBar = getLayoutInflater().inflate(R.layout.custom_action_bar, null);
         /** Add Slider **/
 //		StartAppAd.showSlider(this);
@@ -120,10 +119,11 @@ public class FactActivity extends ActionBarActivity implements Spinner.OnItemSel
                     public void onPageSelected(int position) {
                         selectedSpine = position;
                         numberOfPageSelected++;
-                        if ((numberOfPageSelected) >= 8) {
+                        if ((numberOfPageSelected) >= pageThreshold) {
                             displayInterstitial();
                         }
                         setupTitle(position);
+                        sendEvent("" + position);
                     }
 
                     @Override
@@ -135,12 +135,11 @@ public class FactActivity extends ActionBarActivity implements Spinner.OnItemSel
                     public void onPageScrollStateChanged(int state) {
                     }
                 });
-        loadInterstitialAd();
 
     }
 
     private void setupTitle(int position) {
-        actionBar.setTitle(getString(R.string.fact)+ " " + (position+1) + "/"+ (contentArray.length +1));
+        actionBar.setTitle(getString(R.string.fact) + " " + (position + 1) + "/" + (contentArray.length + 1));
     }
 
     private void setupActionBar() {
@@ -154,18 +153,7 @@ public class FactActivity extends ActionBarActivity implements Spinner.OnItemSel
     }
 
     int numberOfPageSelected = 0;
-
-    private void loadInterstitialAd() {
-//		// Create the interstitial.
-//		interstitial = new InterstitialAd(this);
-//		interstitial.setAdUnitId(getString(R.string.amazing_interstitial_ad_unit_id));
-////
-////		// Create ad request.
-//		AdRequest adRequest = new AdRequest.Builder().build();
-////		// Begin loading your interstitial.
-//		interstitial.loadAd(adRequest);
-
-    }
+    int pageThreshold = 8;
 
     // Invoke displayInterstitial() when you are ready to display an
     // interstitial.
@@ -190,6 +178,7 @@ public class FactActivity extends ActionBarActivity implements Spinner.OnItemSel
             @Override
             public void adDisplayed(Ad ad) {
                 numberOfPageSelected = 0;
+                pageThreshold *= 2;
                 Log.i(TAG, "adDisplayed");
             }
 
@@ -223,6 +212,8 @@ public class FactActivity extends ActionBarActivity implements Spinner.OnItemSel
     protected void onResume() {
         super.onResume();
         startAppAd.onResume();
+        mTracker.setScreenName(TAG);
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
     }
 
     @Override
@@ -277,5 +268,13 @@ public class FactActivity extends ActionBarActivity implements Spinner.OnItemSel
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
+    }
+
+    private void sendEvent(String label) {
+        mTracker.send(new HitBuilders.EventBuilder()
+                .setCategory("Fact")
+                .setAction("PageSelected")
+                .setLabel(label)
+                .build());
     }
 }
