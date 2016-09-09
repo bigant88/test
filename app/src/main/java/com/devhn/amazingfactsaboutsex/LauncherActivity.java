@@ -1,11 +1,10 @@
 package com.devhn.amazingfactsaboutsex;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
-import android.app.Activity;
-import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -18,6 +17,7 @@ public class LauncherActivity extends Activity {
 
     private static final String TAG = LauncherActivity.class.getSimpleName();
     private Tracker mTracker;
+    private RatingDialog mRatingDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +27,8 @@ public class LauncherActivity extends Activity {
         AppController application = (AppController) getApplication();
         mTracker = application.getDefaultTracker();
         saveOpenAppTime();
+        mRatingDialog = new RatingDialog();
+        mRatingDialog.onCreate(this);
     }
 
     private void saveOpenAppTime() {
@@ -53,27 +55,32 @@ public class LauncherActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void gotoFactsBtnClick(View v){
+    public void gotoFactsBtnClick(View v) {
         Intent intent = new Intent(getApplicationContext(), FactActivity.class);
         startActivity(intent);
     }
 
-    public void gotoPositionBtnClick(View v){
+    public void gotoPositionBtnClick(View v) {
         Intent intent = new Intent(getApplicationContext(), PositionActivity.class);
         startActivity(intent);
     }
 
-    public void gotoDownloadJokeBtnClick(View v){
+    public void gotoDownloadJokeBtnClick(View v) {
         gotoJokeMe();
     }
 
-    public void feedBackClick(View v){
+    public void feedBackClick(View v) {
         gotoStore();
     }
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+
+        if (mRatingDialog.shouldShowAwesomePopup()) {
+            mRatingDialog.showAwesomePopup();
+        }else {
+            super.onBackPressed();
+        }
     }
 
     void gotoJokeMe() {
