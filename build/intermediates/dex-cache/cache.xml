@@ -1,2 +1,203 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/me.zhanghai.android.materialprogressbar/library/1.1.7/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1478a113f04bf0b679037b4f6bd88bd1837b96a3">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/me.zhanghai.android.materialprogressbar-library-1.1.7_74818a2f26839ca37d8e55992e31385be5f1f944.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.afollestad.material-dialogs/core/0.8.6.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cbdf1602ce622f3445dc7513237f30930c6e4a5a">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/com.afollestad.material-dialogs-core-0.8.6.2_bb4f8a0e56d657395df74d6a19afe66d29196082.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="373cd65725af2781d100ddc193c7d3f14464a774">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-analytics-impl-9.0.0_2ebbf5fed33b610d04d7c38a4f2ed968fbf58ff2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2cb29455028e92e024bbad0d41c6ec772f2433d1">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-9.0.0_dcfe2eb3b3750f7a4b9af5274c2904aaf76a5a5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e096a5d8343cc9c5a9f6eded36bd0f4c82f8c83e">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-24.1.0_024bc6affe2ecc099c15e973658a3c9d07f0f467.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/libs/internal_impl-24.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8c7087216946c546f85a1242a2794c0f271e092c">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/internal_impl-24.1.0_939948f28465dc9e5e08135f5fa33e20b9b238e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-common-9.0.0_c9b8895442586045d4666fea426c89318f90f373.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-iid-9.0.0_8889b679423c26042233dfbc0fdf2400a3c6b500.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba8e8860f7e033c3a503b682337a4bafdf56e6ee">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-24.1.0_fd3bd3a61bcecef54e4f491d119a523a18d10bac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-9.0.0_434c91cb31435ca0b026bebd2e76850a03e6c8af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/libs/StartAppInApp-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ac5286c355f90cc660877d567d04eb982c684f9b">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/StartAppInApp-3.3.1_e38a5a317db8b8646f4e9c668d36e37aafa6e4df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tasks-9.0.0_4e975a9dccd902449148541e269680324a1bdd31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-9.0.0_4139298f9f545b5cc65e6651808f8249d41e33db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9340c4f95a4e3916c9ad70296e24576743743712">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-24.1.0_e978fa1637be1c64c155a67a252acd34b3f47c64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/test/viewpagerindicator/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7384b58cb009a664d35522e2f150a02c6a8aa0ad">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/test-viewpagerindicator-unspecified_53fd96c8e44cbad21099106c6c352eacf2d0e7ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.0/support-annotations-24.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/support-annotations-24.1.0_0115b51f94d659acb46c27a81304bcfe95663a2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4157816e81f0820983957687e9a6f4c1cea0f1e5">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-24.1.0_667e8c8aef2d8c091a1085ca24ca143425e8fe2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-impl-9.0.0_4b065412302da973efc81313026b67930b3c6af1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8c854b30eca6c442fe842e66cd3b58c5dd08996f">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-24.1.0_dbb5fd1131b53e2e92d23692c71147519b949bd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="79e4b41db41d4dbbf364c7bd6aaeee5b876c9d8b">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-lite-9.0.0_597c57ff8a70b146f5f7a932d023e0be1167707c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-9.0.0_9302b709bab3c14e793746c915c5f696cf1bc211.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/thaodv/github/test/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b8bedab61b3b5238cd9a07d3b04449d7fecdbc3b">
+        <dex dex="/Users/thaodv/github/test/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-analytics-9.0.0_a6cf7de73b62e4ba7375ccbf24a9a1dcb9ad0457.jar" />
+    </item>
+
+</items>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="do_kegel_exercises">Есть ли упражнения Кегеля, чтобы иметь лучшие orgasims</string>
     <string name="bookmark">Đánh dấu</string>
     <string name="bookmarked">Đã đánh dấu</string>
     <string name="increase_font">Tăng cỡ chữ</string>
@@ -31,6 +31,8 @@
     <string name="find_position_of_you_today">Найти место для вас сегодня</string>
     <string name="download_jokes_for_adult_app">Скачать Шутки для взрослых приложение</string>
     <string name="feedback">Обратная связь</string>
+    <string name="more_apps">Больше приложений</string>
+    <string name="funny_pictures">Смешные картинки, цитаты</string>
 
 
     <string-array name="content_array">

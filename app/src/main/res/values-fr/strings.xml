@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="do_kegel_exercises">Faire des exercices de Kegel pour avoir de meilleurs orgasims</string>
     <string name="bookmark">Đánh dấu</string>
     <string name="bookmarked">Đã đánh dấu</string>
     <string name="increase_font">Tăng cỡ chữ</string>
@@ -31,6 +31,8 @@
     <string name="find_position_of_you_today"> Trouvez la position pour vous aujourd\'hui </string>
     <string name="download_jokes_for_adult_app"> Télécharger Blagues pour app adulte </string>
     <string name="feedback"> Feedback </string>
+    <string name="more_apps">Plus d\'applications</string>
+    <string name="funny_pictures">Images drôles, citations drôles</string>
 
     <string-array name="content_array">
 

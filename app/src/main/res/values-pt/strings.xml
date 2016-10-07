@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="do_kegel_exercises">Fazer exercícios de Kegel para ter melhores orgasims</string>
     <string name="bookmark">Đánh dấu</string>
     <string name="bookmarked">Đã đánh dấu</string>
     <string name="increase_font">Tăng cỡ chữ</string>
@@ -24,13 +24,15 @@
     <string name = "try_this"> Tente este </string>
     <string name = "desc"> Descrição </string>
     <string name = "view_31_best_positions"> Veja as melhores posições Kamasutra sexo </string>
-    <string name = "view_200_amazing_sex_fact"> view_200_amazing_sex_fact dicas Vista incrível de sexo </string>
+    <string name = "view_200_amazing_sex_fact">dicas Vista incrível de sexo </string>
     <string name = "like"> Como </string>
     <string name = "tried_this"> Eu tentei este </string>
     <string name = "find_position_of_you_today"> Encontre posição para você hoje </string>
     <string name = "download_jokes_for_adult_app"> Fazer download de piadas para aplicação adulto </string>
     <string name = "feedback"> feedback </string>
-    
+    <string name="more_apps">Mais aplicativos</string>
+    <string name="funny_pictures">Citações engraçadas fotos engraçadas</string>
+
     <string-array name="content_array">
 
 

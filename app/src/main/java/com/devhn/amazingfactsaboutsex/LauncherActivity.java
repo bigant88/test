@@ -65,8 +65,12 @@ public class LauncherActivity extends Activity {
         startActivity(intent);
     }
 
-    public void gotoDownloadJokeBtnClick(View v) {
-        gotoJokeMe();
+    public void gotoDownloadFunnyPicBtnClick(View v){
+        gotoFunnyPicApp();
+    }
+
+    public void gotoDownloadKegelBtnClick(View v) {
+        gotoKegelEx();
     }
 
     public void feedBackClick(View v) {
@@ -78,37 +82,50 @@ public class LauncherActivity extends Activity {
 
         if (mRatingDialog.shouldShowAwesomePopup()) {
             mRatingDialog.showAwesomePopup();
+            sendEvent("ClickBtn", "ShowRatingPopup","");
         }else {
             super.onBackPressed();
         }
     }
 
-    void gotoJokeMe() {
-        final String appPackageName = "app.jokeme"; // getPackageName() from Context or Activity object
+    void gotoFunnyPicApp(){
+        final String appPackageName = "com.youth.sgfunnyquotes"; // getPackageName() from Context or Activity object
         try {
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName+ "&utm_source=posappsource&referrer=posappref")));
         } catch (android.content.ActivityNotFoundException anfe) {
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
 
         }
-        sendEvent();
+        sendEvent("ClickBtn", "gotoFunnyPicApp","");
+    }
+
+    void gotoKegelEx() {
+        final String appPackageName = "youthstudio.com.kegelexercises"; // getPackageName() from Context or Activity object
+        try {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName+ "&utm_source=posappsource&referrer=posappref")));
+        } catch (android.content.ActivityNotFoundException anfe) {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
+
+        }
+        sendEvent("ClickBtn", "GotoKegel","");
     }
 
     void gotoStore() {
         final String appPackageName = getPackageName();// from Context or Activity object
         try {
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName + "&utm_source=posappsource&referrer=posappref")));
         } catch (android.content.ActivityNotFoundException anfe) {
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
 
         }
-        sendEvent();
+        sendEvent("ClickBtn", "GotoRating","");
     }
 
-    private void sendEvent() {
+    private void sendEvent(String eventCategory, String action, String label) {
         mTracker.send(new HitBuilders.EventBuilder()
-                .setCategory("GotoJokeMe")
-                .setAction("GotoJokeMe")
+                .setCategory(eventCategory)
+                .setAction(action)
+                .setLabel(label)
                 .build());
     }
 }

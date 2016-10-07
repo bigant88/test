@@ -29,6 +29,8 @@
     <string name="find_position_of_you_today"> Finden Sie Position für Sie heute </string>
     <string name="download_jokes_for_adult_app"> Download Witze für Erwachsene App </string>
     <string name="Feedback"> Feedback </string>
+    <string name="more_apps">More apps</string>
+    <string name="funny_pictures">Funny Pictures</string>
 
     <string-array name="content_array">
 

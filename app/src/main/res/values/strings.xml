@@ -365,13 +365,13 @@
     <string name="try_this">Try this</string>
     <string name="desc">Description</string>
     <string name="view_31_best_positions">View the best Kamasutra sex positions</string>
-    <string name="view_200_amazing_sex_fact">View amazing sex tips</string>
+    <string name="view_200_amazing_sex_fact">View sex tips</string>
     <string name="like">Like</string>
     <string name="tried_this">I tried this</string>
     <string name="find_position_of_you_today">Find position for you today</string>
     <string name="download_jokes_for_adult_app">Download Jokes for adult app</string>
-    <string name="feedback">Feedback</string>
 
+    <string name="feedback">Feedback</string>
     <string name="no_thanks">No thanks</string>
     <string name="will_rate_inmapz">Awesome! Will you rate the app? Thank for your support!</string>
     <string name="how_is_the_app">How\'s the app for you?</string>
@@ -381,6 +381,10 @@
     <string name="send_mail">Send mail...</string>
     <string name="ok">Ok</string>
     <string name="cancel">Cancel</string>
+    <string name="do_kegel_exercises">Do Kegel Exercises to have better orgasims</string>
+    <string name="more_apps">More apps</string>
+    <string name="funny_pictures">Funny Pictures - Funny Quotes</string>
+    <string name="banner_unit_id">ca-app-pub-6811776882268454/9836989320</string>
     <string-array name="greatOrNot">
         <item>GREAT</item>
         <item>NOT GREAT</item>

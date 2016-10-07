@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="do_kegel_exercises">Haga ejercicios de Kegel para tener mejores orgasims</string>
     <string name="app_name">consejos para el sexo y buenas posiciones</string>
     <string name="bookmark">Đánh dấu</string>
     <string name="bookmarked">Đã đánh dấu</string>
@@ -24,6 +24,8 @@
     <string name="desc">Description</string>
     <string name="view_31_best_positions">Ver 31 las mejores posiciones sexuales</string>
     <string name="view_200_amazing_sex_fact">Ver 200 hechos sorprendentes sexo</string>
+    <string name="more_apps">Más aplicaciones</string>
+    <string name="funny_pictures">Citas divertidas Fotos cómicas</string>
     <string-array name="content_array">
 
 

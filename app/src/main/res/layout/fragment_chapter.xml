@@ -45,7 +45,7 @@
             android:text="kjlfa sljf alkjs; lkfajl skjlak jsldkfja lksjdfl jalksjf kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
             android:textColor="@color/black"
             android:textIsSelectable="true"
-            android:textSize="30sp" />
+            android:textSize="50sp" />
 
         <ImageView
             android:id="@+id/image"

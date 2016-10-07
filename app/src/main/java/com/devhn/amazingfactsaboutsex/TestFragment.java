@@ -23,9 +23,9 @@ public final class TestFragment extends Fragment  {
 	private static final String KEY_CONTENT = "TestFragment:Content";
 	public static final String ARG_CHAPTER_NUMBER = "chapter_number";
 	public static final String TAG = "TestFragment";
-	static final int[] backgrounds = { R.drawable.zero, R.drawable.one,
-			R.drawable.two, R.drawable.three, R.drawable.four, R.drawable.five,
-			R.drawable.six, R.drawable.seven, R.drawable.eight, R.drawable.nine };
+	static final int[] backgrounds = { R.drawable.p10, R.drawable.p1,
+			R.drawable.p2, R.drawable.p3, R.drawable.p4, R.drawable.p5,
+			R.drawable.p6, R.drawable.p7, R.drawable.p8, R.drawable.p9 };
 	private TextView textView;
 	int chapterIndex, chapterId;
 //	AdView adViewFooter;

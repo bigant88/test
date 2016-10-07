@@ -10,6 +10,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.analytics.HitBuilders;
 
 /**
@@ -35,6 +38,7 @@ public class PositionFragment extends Fragment {
 
     private int positionID;
     AppController appController;
+    private AdView mAdViewTop;
     private TextView mTvwPositionName, mTvwPositionBenefits, mTvwPositionTryThis, mTvwDesc;
     private ImageView mImgPositionImage;
     private String[] nameArray, benefitArray, tryThisArray, descArray;
@@ -50,6 +54,7 @@ public class PositionFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         appController = (AppController) getActivity().getApplication();
+        MobileAds.initialize(appController, "ca-app-pub-6811776882268454~8360256126");
     }
 
     @Nullable
@@ -68,9 +73,16 @@ public class PositionFragment extends Fragment {
         descArray = getResources().getStringArray(R.array.position_desc_array);
         mViewTriedThis = rootView.findViewById(R.id.tried_this_layout);
         mViewLike = rootView.findViewById(R.id.like_layout);
+        mAdViewTop = (AdView) rootView.findViewById((R.id.adViewTop));
         setupViews();
         setListeners();
+        loadAdmobAds();
         return rootView;
+    }
+
+    private void loadAdmobAds() {
+        AdRequest adRequest = new AdRequest.Builder().addTestDevice("4A0CE67F80E22C84CF49D638ECDC09D5").build();
+        mAdViewTop.loadAd(adRequest);
     }
 
     private void setListeners() {
@@ -99,16 +111,24 @@ public class PositionFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
+        mAdViewTop.resume();
     }
 
     @Override
     public void onPause() {
         super.onPause();
+        mAdViewTop.pause();
     }
 
     @Override
     public void onStop() {
         super.onStop();
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        mAdViewTop.destroy();
     }
 
     private void setupViews() {
